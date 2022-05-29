@@ -13,12 +13,13 @@ struct BankApp: App {
     
     var body: some Scene {
         WindowGroup {
-            EnterView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-//            HomeView2()
+//            EnterView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            
 //            AnalyticsView()
 //            TestView3()
 //            WalletView(wallet: Wallet.init(cards: cards), action: .constant(1))
+            HomeView2()
         }
     }
 }
