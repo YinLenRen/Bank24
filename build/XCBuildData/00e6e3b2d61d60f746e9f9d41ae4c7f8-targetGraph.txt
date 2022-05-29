@@ -1,0 +1,17 @@
+Target dependency graph (7 targets)
+Alamofire in Pods, no dependencies
+HandyJSON in Pods, no dependencies
+RxSwift in Pods, no dependencies
+Moya in Pods, depends on:
+Alamofire in Pods (explicit)
+RxSwift in Pods (explicit)
+SDWebImage in Pods, no dependencies
+SDWebImageSwiftUI in Pods, depends on:
+SDWebImage in Pods (explicit)
+Pods-Bank in Pods, depends on:
+Alamofire in Pods (explicit)
+HandyJSON in Pods (explicit)
+Moya in Pods (explicit)
+RxSwift in Pods (explicit)
+SDWebImage in Pods (explicit)
+SDWebImageSwiftUI in Pods (explicit)
